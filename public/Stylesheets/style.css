@@ -1,0 +1,67 @@
+
+  /* ---------------------General------------------ */
+body{
+    background-color: #ddd;
+}
+
+.text-dark{
+
+    color: #333;
+  }
+  .text-grey{
+    color: #555;
+  }
+
+
+
+  /* -----------------------------Services page ---------------- */
+
+
+  .row{
+    border: 0.5rem solid white;
+    display: flex;
+    height: 300px;
+    flex-direction: row;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px #888888;
+    margin-bottom: 3rem;
+}
+.imageSection , .textSection {
+    width: 50%;
+    height: 100%;
+    padding: 0;
+}
+.textSection {
+    padding-inline: 0.8rem;
+}
+img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* -----------------footer---------- */
+
+.footer{
+    text-align: center;
+    margin-top: 5rem;
+  }
+  
+  .footer a{
+    color: whitesmoke;
+  }
+  
+  .footer .last-msg{
+    color: whitesmoke;
+    font-weight: 700;
+    padding-top: 0;
+  }
+  
+  .footer .socials i{
+    margin: 1rem;
+    
+  }
+  
